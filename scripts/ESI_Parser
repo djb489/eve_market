@@ -1,0 +1,60 @@
+import urllib.request
+import json
+
+# structure id: 60003760 	Jita IV - Moon 4 - Caldari Navy Assembly Plant
+# region_id for the Forge: 10000002
+
+base_url = "https://esi.tech.ccp.is/latest"
+
+# query_url = "/markets/[REGIONID]/history/?datasource=tranquility&type_id=[TYPEID]"
+query_url = "/markets/10000002/history/?datasource=tranquility&type_id=179"
+
+site = base_url + query_url
+
+site = "https://esi.tech.ccp.is/latest/markets/10000002/orders/?datasource=tranquility&order_type=all&page=1"
+r = urllib.request.urlopen(site)
+raw_json = json.load(r)
+
+# print(raw_json)
+# print(raw_json[0].keys())
+
+data_list = []
+for entry in raw_json:
+    data_list.append(entry)
+
+buy_tally_dict = {}
+sell_tally_dict = {}
+
+for order in data_list:
+    if order["is_buy_order"] == True:
+        print("buy order", order["location_id"])
+        if order["location_id"] in buy_tally_dict:
+            buy_tally_dict[order['location_id']] += 1
+        else:
+            buy_tally_dict[order["location_id"]] = 1
+    else:
+        #    print("sell order", order["location_id"])
+        if order["location_id"] in sell_tally_dict:
+            sell_tally_dict[order['location_id']] += 1
+        else:
+            sell_tally_dict[order["location_id"]] = 1
+
+print("Buy Orders")
+for entry in buy_tally_dict:
+    print(entry, ":", buy_tally_dict[entry])
+
+print('\n')
+
+print("Sell Orders")
+for entry in sell_tally_dict:
+    print(entry, ":", sell_tally_dict[entry])
+
+print('\n')
+print(len(data_list))
+
+
+r.close()
+
+# for order in data_list:
+#  print(order['type_id'])
+# now for single statistics
