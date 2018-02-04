@@ -1,0 +1,99 @@
+18 	Plagioclase
+19 	Spodumain
+20 	Kernite
+21 	Hedbergite
+22 	Arkonor
+25 	Corpse Male
+34 	Tritanium
+35 	Pyerite
+36 	Mexallon
+37 	Isogen
+38 	Nocxium
+39 	Zydrine
+40 	Megacyte
+41 	Garbage
+42 	Spiced Wine
+43 	Antibiotics
+44 	Enriched Uranium
+45 	Frozen Plant Seeds
+178 	Carbonized Lead S
+179 	Nuclear S
+180 	Proton S
+181 	Depleted Uranium S
+182 	Titanium Sabot S
+183 	Fusion S
+184 	Phased Plasma S
+185 	EMP S
+186 	Carbonized Lead M
+187 	Nuclear M
+188 	Proton M
+189 	Depleted Uranium M
+190 	Titanium Sabot M
+191 	Fusion M
+192 	Phased Plasma M
+193 	EMP M
+194 	Carbonized Lead L
+195 	Nuclear L
+196 	Proton L
+197 	Depleted Uranium L
+198 	Titanium Sabot L
+199 	Fusion L
+200 	Phased Plasma L
+201 	EMP L
+202 	Mjolnir Cruise Missile
+203 	Scourge Cruise Missile
+204 	Inferno Cruise Missile
+205 	Nova Cruise Missile
+206 	Nova Heavy Missile
+207 	Mjolnir Heavy Missile
+208 	Inferno Heavy Missile
+209 	Scourge Heavy Missile
+210 	Scourge Light Missile
+211 	Inferno Light Missile
+212 	Mjolnir Light Missile
+213 	Nova Light Missile
+215 	Iron Charge S
+216 	Tungsten Charge S
+217 	Iridium Charge S
+218 	Lead Charge S
+219 	Thorium Charge S
+220 	Uranium Charge S
+221 	Plutonium Charge S
+222 	Antimatter Charge S
+223 	Iron Charge M
+224 	Tungsten Charge M
+225 	Iridium Charge M
+226 	Lead Charge M
+227 	Thorium Charge M
+228 	Uranium Charge M
+229 	Plutonium Charge M
+230 	Antimatter Charge M
+231 	Iron Charge L
+232 	Tungsten Charge L
+233 	Iridium Charge L
+234 	Lead Charge L
+235 	Thorium Charge L
+236 	Uranium Charge L
+237 	Plutonium Charge L
+238 	Antimatter Charge L
+239 	Radio S
+240 	Microwave S
+241 	Infrared S
+242 	Standard S
+243 	Ultraviolet S
+244 	Xray S
+245 	Gamma S
+246 	Multifrequency S
+247 	Radio M
+248 	Microwave M
+249 	Infrared M
+250 	Standard M
+251 	Ultraviolet M
+252 	Xray M
+253 	Gamma M
+254 	Multifrequency M
+255 	Radio L
+256 	Microwave L
+257 	Infrared L
+258 	Standard L
+259 	Ultraviolet L
